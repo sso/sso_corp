@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^sso.sportsystemsonline.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.sso.sportsystemsonline.com$
+RewriteRule ^.*$ "http\:\/\/www\.sportsystemsonline\.com\/sso\/index\.htm" [R=301,L]
+

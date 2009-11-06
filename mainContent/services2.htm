@@ -1,0 +1,253 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>New Page 1</title>
+<script language="JavaScript">
+<!--
+function FP_swapImgRestore() {//v1.0
+ var doc=document,i; if(doc.$imgSwaps) { for(i=0;i<doc.$imgSwaps.length;i++) {
+  var elm=doc.$imgSwaps[i]; if(elm) { elm.src=elm.$src; elm.$src=null; } } 
+  doc.$imgSwaps=null; }
+}
+
+function FP_goToURL(url) {//v1.0
+ window.location=url;
+}
+
+function FP_changePropRestore() {//v1.0
+ var d=document,x; if(d.$cpe) { for(i=0; i<d.$cpe.length; i++) { x=d.$cpe[i];
+ if(x.v=="") x.v=""; eval("x."+x.n+"=x.v"); } d.$cpe=null; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+
+function FP_changeProp() {//v1.0
+ var args=arguments,d=document,i,j,id=args[0],o=FP_getObjectByID(id),s,ao,v,x;
+ d.$cpe=new Array(); if(o) for(i=2; i<args.length; i+=2) { v=args[i+1]; s="o"; 
+ ao=args[i].split("."); for(j=0; j<ao.length; j++) { s+="."+ao[j]; if(null==eval(s)) { 
+  s=null; break; } } x=new Object; x.o=o; x.n=new Array(); x.v=new Array();
+ x.n[x.n.length]=s; eval("x.v[x.v.length]="+s); d.$cpe[d.$cpe.length]=x;
+ if(s) eval(s+"=v"); }
+}
+// -->
+</script>
+</head>
+
+<body style="text-align: center" onload="FP_preloadImgs(/*url*/'../btnLEFT/lft_btnballDemo.png', /*url*/'../btnLEFT/lft_btnBALLbroch.png', /*url*/'../btnLEFT/lft_btnBallSupport.png', /*url*/'../btnLEFT/lft_ballmembers.png')">
+
+<div align="center">
+	<table border="1" width="750" id="table18" height="677" background="../images/SSOv3bkg.jpg">
+		<tr>
+			<td>
+			<table border="0" width="100%" id="table19" height="656">
+				<!-- MSTableType="nolayout" -->
+				<tr>
+					<td height="213" width="23%">&nbsp;</td>
+					<td height="213" width="44%">&nbsp;</td>
+					<td height="213" width="32%">&nbsp;</td>
+				</tr>
+				<tr>
+					<td height="29" width="23%">&nbsp;</td>
+					<td colspan="2" height="29">
+					<table border="0" width="100%" id="table20" height="26" cellspacing="0" cellpadding="0">
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td width="72" align="center">
+							<b>
+							<font face="Arial Narrow" size="2" id="id5" onmouseover="FP_changeProp(/*id*/'id5',0,'style.color','#607D55');" onmouseout="FP_changePropRestore()" onclick="FP_goToURL(/*href*/'../index.htm')">
+							Home</font></b></td>
+							<td width="72" align="center" background="../btn/btn_1.png">
+							<b>
+							<font face="Arial Narrow" size="2" id="id1" onmouseover="FP_changeProp(/*id*/'id1',0,'style.color','#607D55');" onmouseout="FP_changePropRestore()" onclick="FP_goToURL(/*href*/'../services.htm')" color="#FFFFFF">Services</font></b></td>
+							<td width="72" align="center">
+							<b>
+							<font face="Arial Narrow" size="2" id="id2" onmouseover="FP_changeProp(/*id*/'id2',0,'style.color','#607D55');" onmouseout="FP_changePropRestore()" onclick="FP_goToURL(/*href*/'../sports.htm')">Sports</font></b></td>
+							<td width="71" align="center">
+							<b>
+							<font face="Arial Narrow" size="2" id="id3" onmouseover="FP_changeProp(/*id*/'id3',0,'style.color','#607D55');" onmouseout="FP_changePropRestore()" onclick="FP_goToURL(/*href*/'../aboutUs.htm')">About Us</font></b></td>
+							<td width="71" align="center">
+							<b>
+							<font face="Arial Narrow" size="2" id="id4" onmouseover="FP_changeProp(/*id*/'id4',0,'style.color','#607D55');" onmouseout="FP_changePropRestore()" onclick="FP_goToURL(/*href*/'../contactUs.htm')">Contact Us</font></b></td>
+							<td width="10" align="center">&nbsp;</td>
+						</tr>
+					</table>
+					</td>
+				</tr>
+				<tr>
+					<td width="23%" valign="top" height="28">
+					&nbsp;</td>
+					<td height="28" width="44%">&nbsp;</td>
+					<td height="28" valign="top" width="32%">
+					<table border="0" width="100%" id="table21">
+						<tr>
+							<td width="13">&nbsp;</td>
+							<td width="109"><b><font color="#607D55">Services</font></b></td>
+							<td>&nbsp;</td>
+						</tr>
+					</table>
+					</td>
+				</tr>
+				<tr>
+					<td width="23%" valign="top" height="356">
+					<table border="0" width="94%" id="table22" height="133" cellspacing="0" cellpadding="0">
+						<tr>
+							<td align="right">
+							<p align="left">
+							<a href="../FLVdemo/demo.htm">
+							<img border="0" src="../btnLEFT/lft_btnDemo.png" width="136" height="31" id="img1" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'../btnLEFT/lft_btnballDemo.png')" onmouseout="FP_swapImgRestore()" onclick="FP_goToURL(/*href*/'../FLVdemo/demo.htm')"></a></td>
+						</tr>
+						<tr>
+							<td align="right">
+							<p align="left">
+							<img border="0" src="../btnLEFT/lft_btnbroch.png" width="136" height="28" id="img2" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'../btnLEFT/lft_btnBALLbroch.png')" onmouseout="FP_swapImgRestore()" onclick="FP_goToURL(/*href*/'../brochure.htm')"></td>
+						</tr>
+						<tr>
+							<td align="right">
+							<p align="left">
+							<img border="0" src="../btnLEFT/lft_btnSupport.png" width="136" height="28" id="img3" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'../btnLEFT/lft_btnBallSupport.png')" onmouseout="FP_swapImgRestore()" onclick="FP_goToURL(/*href*/'../support.htm')"></td>
+						</tr>
+						<tr>
+							<td align="right">
+							<p align="left">
+							<img border="0" src="../btnLEFT/lft_members.png" width="136" height="28" id="img10" onmouseover="FP_swapImg(1,0,/*id*/'img10',/*url*/'../btnLEFT/lft_ballmembers.png')" onmouseout="FP_swapImgRestore()" onclick="FP_goToURL(/*href*/'http://app.sportsystemsonline.com')"></td>
+						</tr>
+					</table>
+					<p>&nbsp;</td>
+					<td height="356" width="76%" colspan="2" valign="top">
+					<table border="0" width="100%" id="table32">
+						<!-- MSTableType="nolayout" -->
+						<tr>
+							<td colspan="3" bgcolor="#B1CCB5" height="42">
+							<p align="center">
+						<font color="#FFFFFF" face="Times New Roman" size="2">
+							Provided here is a basic features list of which will 
+							be deployed in the 1st release of SSO with a detail 
+							explanation of each of the key pages being 
+							developed.</font></td>
+						</tr>
+						<tr>
+							<td valign="top">
+							<p align="center">
+								<font color="#9BAA52" face="Times New Roman" size="2">
+								Functional Web Site Layout:<br>
+								Home Page<br>
+								Standings/Fixtures<br>
+								Team Rosters<br>
+								Player Profile<br>
+								Game Day Results by Season &amp; Division<br>
+								Welcome &amp; About<br>
+								Player Registration</font></td>
+							<td valign="top">
+							<p align="center">
+								<font color="#9BAA52" face="Times New Roman" size="2">
+								A. Key Features:<br>
+								Online Registration &amp; Payment<br>
+								Fully Customizable Online Forms<br>
+								Certified Real Time Credit Card Processing<br>
+								Automated Confirmations &amp; Receipts<br>
+								Fully Integrated Shopping Cart<br>
+								Team Building &amp; Game Scheduling<br>
+								Player &amp; Volunteer Management Tools<br>
+								Membership Management<br>
+								Broadcast &amp; Target Email<br>
+								Free Hosting, Support &amp; Training</font></td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td colspan="2" valign="top" bgcolor="#D5E3D7">
+							<p align="center">
+								<font color="#9BAA52" face="Times New Roman" size="2">
+								OTHER BENEFITS: <br>
+								Sport management application - League &amp; 
+							tournament scheduling - Back office data entry<br>
+								Program &amp; league setup - Mass email &amp; address 
+							labels - Financial reporting<br>
+								Volunteer background checks - Website management</font></td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+							<table border="0" width="100%" id="table33">
+								<tr>
+									<td colspan="3"><font size="2" color="#9BAA52">
+									Ask for more information:&nbsp; </font>
+						<a title="Ask for more information" target="_self" href="../contactUs.htm">
+						<font color="#9BAA52">
+							<img border="0" src="../images/arrow1.png" width="10" height="10"></font></a></td>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									<td valign="top">
+						<a style="text-decoration: none" title="Go Back" target="_self" href="http://www.sportsystemsonline.com">
+						<font size="2" color="#9BAA52">Back</font></a><font size="2" color="#9BAA52">&nbsp; </font>
+						<a title="Back to Welcome Screen" target="_self" href="http://www.sportsystemsonline.com">
+							<font color="#9BAA52">
+							<img border="0" src="../images/arrow1.png" width="10" height="10"></font></a></td>
+								</tr>
+								<tr>
+									<td>
+										<font face="Times New Roman" size="2" color="#9BAA52">
+										<img border="0" src="../btn/1ICOsoccer.png" width="68" height="43"></font></td>
+									<td>
+										<font face="Times New Roman" size="2" color="#9BAA52">
+										<img border="0" src="../btn/1ICObaseball.png" width="74" height="36"></font></td>
+									<td>
+										<font face="Times New Roman" size="2" color="#9BAA52">
+										<img border="0" src="../btn/1ICOfootball.png" width="81" height="59"></font></td>
+									<td>
+										<font face="Times New Roman" size="2" color="#9BAA52">
+										<img border="0" src="../btn/1ICOhockey.png" width="77" height="53"></font></td>
+									<td>
+									<font face="Times New Roman" size="2" color="#9BAA52">
+										<img border="0" src="../btn/1ICObasketball.png" width="77" height="46"></font></td>
+									<td>
+									<font face="Times New Roman" size="2" color="#9BAA52">
+										<img border="0" src="../btn/1ICOvoley.png" width="71" height="38"></font></td>
+								</tr>
+							</table>
+							</td>
+							<td>&nbsp;</td>
+						</tr>
+					</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+<div align="center">
+	<table border="1" width="750" id="table27" height="55">
+		<tr>
+			<td>
+			<div align="center">
+				<p align="justify">
+				<img border="0" src="../images/botBar.png" width="739" height="61"></div>
+			</td>
+		</tr>
+	</table>
+</div></div>
+
+</body>
+
+</html>
