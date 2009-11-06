@@ -1,0 +1,156 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Home</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+
+function FP_swapImgRestore() {//v1.0
+ var doc=document,i; if(doc.$imgSwaps) { for(i=0;i<doc.$imgSwaps.length;i++) {
+  var elm=doc.$imgSwaps[i]; if(elm) { elm.src=elm.$src; elm.$src=null; } } 
+  doc.$imgSwaps=null; }
+}
+// -->
+</script>
+</head>
+
+<body style="text-align: center" onload="FP_preloadImgs(/*url*/'../btnLEFT/lft_btnballDemo.png', /*url*/'../btnLEFT/lft_btnBALLbroch.png', /*url*/'../btnLEFT/lft_btnBallSupport.png', /*url*/'../btnLEFT/lft_btnballFAQ.png', /*url*/'../rghtBox/btnRghtLeague1UP.png', /*url*/'../rghtBox/btnRghtTeam1UP.png', /*url*/'../rghtBox/btnRghtonline1UP.png', /*url*/'../rghtBox/btnRghtShell1UP.png', /*url*/'../rghtBox/btnRghtprofile1UP.png')">
+
+<div align="center">
+	<table border="1" width="750" id="table4" height="730" background="../images/SSOv3bkg.jpg">
+		<tr>
+			<td>
+			<table border="0" width="100%" id="table5" height="720">
+				<!-- MSTableType="nolayout" -->
+				<tr>
+					<td height="213" width="23%">&nbsp;</td>
+					<td height="213" width="43%">&nbsp;</td>
+					<td height="213" width="33%">&nbsp;</td>
+				</tr>
+				<tr>
+					<td height="29" width="23%">&nbsp;</td>
+					<td colspan="2" height="29">
+					<table border="0" width="100%" id="table6" height="26" cellspacing="0" cellpadding="0">
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td width="72" align="center" background="../btn/btn_1.png">
+							<b>
+							<font color="#FFFFFF" face="Arial Narrow" size="2">
+							Home</font></b></td>
+							<td width="72" align="center" background="../btn/btn_1.png">
+							<b><font face="Arial Narrow" size="2">Services</font></b></td>
+							<td width="72" align="center" background="../btn/btn_1.png">
+							<b><font face="Arial Narrow" size="2">Sports</font></b></td>
+							<td width="71" align="center" background="../btn/btn_1.png">
+							<b><font face="Arial Narrow" size="2">About Us</font></b></td>
+							<td width="71" align="center" background="../btn/btn_1.png">
+							<b><font face="Arial Narrow" size="2">Contact Us</font></b></td>
+							<td width="10" align="center">&nbsp;</td>
+						</tr>
+					</table>
+					</td>
+				</tr>
+				<tr>
+					<td width="23%" valign="top" height="353">
+					<table border="0" width="94%" id="table7" height="133" cellspacing="0" cellpadding="0">
+						<tr>
+							<td align="right" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'../btnLEFT/lft_btnballDemo.png')" onmouseout="FP_swapImgRestore()">
+							<img border="0" src="../btnLEFT/lft_btnDemo.png" width="136" height="31" id="img1"></td>
+						</tr>
+						<tr>
+							<td align="right">
+							<img border="0" src="../btnLEFT/lft_btnbroch.png" width="136" height="28" id="img2" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'../btnLEFT/lft_btnBALLbroch.png')" onmouseout="FP_swapImgRestore()"></td>
+						</tr>
+						<tr>
+							<td align="right">
+							<img border="0" src="../btnLEFT/lft_btnSupport.png" width="136" height="28" id="img3" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'../btnLEFT/lft_btnBallSupport.png')" onmouseout="FP_swapImgRestore()"></td>
+						</tr>
+						<tr>
+							<td align="right">
+							<img border="0" src="../btnLEFT/lft_btnFAQ.png" width="136" height="28" id="img4" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'../btnLEFT/lft_btnballFAQ.png')" onmouseout="FP_swapImgRestore()"></td>
+						</tr>
+					</table>
+					<p>&nbsp;</td>
+					<td height="353" width="43%">&nbsp;</td>
+					<td height="353" valign="top" width="33%" background="../rghtBox/rght_box.png">
+					<table border="0" width="100%" id="table8" height="346">
+						<tr>
+							<td width="24">&nbsp;</td>
+							<td>&nbsp;</td>
+							<td width="14">&nbsp;</td>
+						</tr>
+						<tr>
+							<td width="24" height="60">&nbsp;</td>
+							<td height="60">
+							<img border="0" src="../rghtBox/btnRghtLeague1.png" width="203" height="56" id="img5" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'../rghtBox/btnRghtLeague1UP.png')" onmouseout="FP_swapImgRestore()"></td>
+							<td width="14" height="60">&nbsp;</td>
+						</tr>
+						<tr>
+							<td width="24">&nbsp;</td>
+							<td>
+							<img border="0" src="../rghtBox/btnRghtTeam1.png" width="203" height="56" id="img6" onmouseover="FP_swapImg(1,0,/*id*/'img6',/*url*/'../rghtBox/btnRghtTeam1UP.png')" onmouseout="FP_swapImgRestore()"></td>
+							<td width="14">&nbsp;</td>
+						</tr>
+						<tr>
+							<td width="24">&nbsp;</td>
+							<td>
+							<img border="0" src="../rghtBox/btnRghtprofile1.png" width="203" height="56" id="img9" onmouseover="FP_swapImg(1,0,/*id*/'img9',/*url*/'../rghtBox/btnRghtprofile1UP.png')" onmouseout="FP_swapImgRestore()"></td>
+							<td width="14">&nbsp;</td>
+						</tr>
+						<tr>
+							<td width="24">&nbsp;</td>
+							<td>
+							<img border="0" src="../rghtBox/btnRghtonline1.png" width="203" height="56" id="img7" onmouseover="FP_swapImg(1,0,/*id*/'img7',/*url*/'../rghtBox/btnRghtonline1UP.png')" onmouseout="FP_swapImgRestore()"></td>
+							<td width="14">&nbsp;</td>
+						</tr>
+						<tr>
+							<td width="24">&nbsp;</td>
+							<td>
+							<img border="0" src="../rghtBox/btnRghtShell1.png" width="203" height="56" id="img8" onmouseover="FP_swapImg(1,0,/*id*/'img8',/*url*/'../rghtBox/btnRghtShell1UP.png')" onmouseout="FP_swapImgRestore()"></td>
+							<td width="14">&nbsp;</td>
+						</tr>
+						<tr>
+							<td width="24">&nbsp;</td>
+							<td>&nbsp;</td>
+							<td width="14">&nbsp;</td>
+						</tr>
+					</table>
+					</td>
+				</tr>
+				<tr>
+					<td width="23%">&nbsp;</td>
+					<td width="43%">&nbsp;</td>
+					<td width="33%">&nbsp;</td>
+				</tr>
+			</table>
+			</td>
+		</tr>
+	</table>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^trac.sportsystemsonline.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.trac.sportsystemsonline.com$
+RewriteRule ^.*$ "http\:\/\/173\.12\.75\.105\:8000\/sso" [R=301,L]
+

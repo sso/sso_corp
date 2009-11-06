@@ -1,0 +1,96 @@
+Mission Statement: 
+To provide an online user friendly solution that will assist sports organizations to better manage and organize sporting events. 
+
+“Sport Systems Online (SSO) is a company that will revolutionize league management, by providing the best in class online solution.”  
+
+Business Description: 
+Sport Systems Online ,Inc.(SSO) is a company that will be dedicated to providing sports application that will provide online software via the internet to manage  leagues, tournaments, athletic travel clubs, and recreational sport activity programs by automating registration, scheduling, team definition, and communication process.
+
+Chief Executive Officer (CEO): Norberto Mahecha (Bert)
+Bert has over 12+ years experience working with AT&T, Lucent Technologies, and Alcatel-Lucent in the communication business as Business Management for the IMS Applications Division.  He also has a B.S. Industrial & System Engineering (ISE) from Florida International University (FIU), which he obtained in 1997.  He is currently attending Keller Graduate School of Management in order to obtain his M.B.A. in Finance.  He also has a passion for soccer and has obtained his United States Soccer Federation (USSF) National F, E, D, and C coaching Licenses. 
+Email: bert@sportsystemsonline.com
+
+
+Chief Technology Officer (CTO): Alvaro Escobar (Al)
+Alvaro has a Bachelor of Science in Systems Engineering from Universidad de los Andes in Bogota, Colombia and a Masters of Science in Computer Science from Kutztown University, Pennsylvania. Currently he is finishing his PhD in Computer Science at Florida Atlantic University (FAU), Florida. Alvaro has 18 years experience in the IT industry, designing and developing mainframe, client-server and web e-commerce systems for several companies (Office Depot Corp., ADP Inc, eDiets.com, Learn.com and other Fortune 500 companies), using many different technologies. He is an advocate of Open Source frameworks and has extensive expertise both as a developer and a contributor. In addition he has 10 years of IT training and teaching experience at FAU, University of Phoenix, Art Institute of Fort Lauderdale, Saint Leo University and Nova Southeastern University among other schools in South Florida, where he shares his working experiences and teaches IT industry best know practices. He is Bilingual and resides in Davie, Florida.
+Email: alvaro@sportsystemsonline.com
+
+Address: 
+12010 SW 26 Street, Davie, Fl 33325
+
+Sport Systems Online (SSO):
+Sport Systems Online #1 objective is to focus in South Florida and become one of the top sport online software companies.  We have been working in South Florida since 1998.
+
+To achieve our objectives, we understand that it is going to take quality assurance and continuous knowledge and management.  This will be achieved by offering the best in class sport management software, and customer support at a great value.
+
+***********************************************************************
+***********************************************************************
+Services
+
+
+Sport Systems Online has been developing a system that will permit sport organization create and manage sport events that will include sport leagues, tournaments, and travel clubs to automating the registration, scheduling, and management process of players and teams.  This is a software solution that will be user friendly and easily accessible from any location (web based).
+
+This is a concept that has been in development since 1998, using a local soccer league that consisted on 13 teams, with about 260 players.  The result of the players was that this provided them a sport web community, where they can enjoy the league not only on the field, but also from the there office and home.
+
+The solution also provides a suite of communication tools, such as email, e-calendar, and text messaging.
+
+Provided here is a basic features list of which will be deployed in the 1st release of SSO with a detail explanation of each of the key pages being developed.
+
+Functional Web Site Layout:
+?	Home Page
+?	Standings/Fixtures
+?	Team Rosters
+?	Player Profile
+?	Game Day Results by Season & Division
+?	Welcome & About
+?	Player Registration
+
+
+A.	Key Features:
+?	Online Registration & Payment
+?	Fully Customizable Online Forms
+?	Certified Real Time Credit Card Processing
+?	Automated Confirmations & Receipts
+?	Fully Integrated Shopping Cart
+?	Team Building & Game Scheduling
+?	Player & Volunteer Management Tools
+?	Membership Management
+?	Broadcast & Target Email
+?	Free Hosting, Support & Training
+
+OTHER BENEFITS: 
+?	Sport management application
+?	League & tournament scheduling
+?	Back office data entry
+?	Program & league setup
+?	Mass email & address labels
+?	Financial reporting
+?	Volunteer background checks
+?	Website management
+
+
+
+
+**********************************************************************
+**********************************************************************
+
+Clients
+
+
+Sportz Services 4U
+Adult Soccer League
+
+Saint Thomas University
+University Women Team
+
+Cooper City Cobras
+Travel Club
+
+City Of Miramar
+Recreation Youth Sports
+
+Professional Services
+Referee Association
+
+Fundamental Soccer Academy (FSA)
+Youth Soccer Academy
